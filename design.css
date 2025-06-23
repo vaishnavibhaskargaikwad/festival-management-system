@@ -1,0 +1,95 @@
+body{
+    text-align: center;
+    margin:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.icon{
+    width:auto;
+    float: left;
+    height: 20px;
+    color: aliceblue;
+    font-style:oblique;
+}
+.hero-content h1{
+    text-align: center;
+    color:rgb(248, 244, 244);
+    margin-top: 80px;
+
+}
+.hero-content a button{
+    transition:0 30;
+    color: rgb(146, 127, 127);
+    width: 300px;
+    height: 30px;
+    padding:0%;
+    margin-top: 50px;
+    text-size-adjust: 20px;
+}
+footer{
+    background-color: rgba(11, 11, 10, 0.838);
+    color:white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 80px;
+}
+nav{
+    background-color: rgba(40, 39, 39, 0.32);
+    color:white;
+    padding:5px;
+    text-align: right;
+}
+nav li{
+    text-align:right;
+    display:inline-block;
+    margin-right:50px;
+    
+}
+.page-section, .form-section{
+padding:3rem;
+max-width:800px;
+margin:top 30px;
+text-align: center;
+}
+.page-section h1,.form-section h1{
+    font-size:2.5rem;
+    margin-bottom:20px;
+    color:rgb(231, 225, 225);
+
+}
+.page-section p{
+    width: 1000px;
+    font-size:large;
+}
+.form-section{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+.form-section input,.form-section textarea{
+    padding:10px;
+    font-size: 1rem;
+    border:1x solid;
+    border-radius: 4px;
+    width:100%;
+    margin-top:10px;
+
+}
+.form-section textarea{
+    resize:vertical;
+    height:100px;
+
+}
+.form-section button{
+    background-color: rgb(241, 240, 240);
+    margin-top:1cm;
+    width: 200px;
+    padding:1%;
+}
+.nav-link.active{
+    text-decoration: underline;
+    font-size: 10%;
+}
